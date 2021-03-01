@@ -1,0 +1,334 @@
+.developers {
+    .developers-box {
+        background-color: #fffcf4;
+        padding-bottom: 100px;
+        .container {
+            .row {
+                .col-4 {
+                    .developers__header {
+                        font-family: $font-family;
+                        font-size: 47px;
+                        text-transform: uppercase;
+                        color: $headerColor;
+                        padding: 14px 0 0 14px;
+                    }
+                }
+            }
+            .row {
+                .col-3 {
+                    padding: 37px 0 0 0;
+                    .developers__item_image {
+                        padding: 0 0 0 15px;
+                    }
+                    .developers__item_name {
+                        padding: 38px 0 0 0;
+                        font-family: $font-family-lato;
+                        font-size: 22px;
+                        font-weight: 400;
+                        text-align: center;
+                    }
+                    .developers__item_paragraph {
+                        width: 195px;
+                        font-family: $font-family-lato;
+                        font-size: 14px;
+                        font-weight: 400;
+                        text-align: center;
+                        margin: 0 auto;
+                        line-height: 1.6;
+                        letter-spacing: 0.2px;
+                    }
+                    .developers__section {
+                        
+                        .developers__item_link-fb {
+                            position: relative;
+                        }
+                        .developers__item_link-fb::before {
+                            position: absolute;
+                            content: url("../img/facebook-small.svg");
+                            top: 18px;
+                            left: 85px;
+                        }
+                        .developers__item_link-twit {
+                            position: relative;
+                        }
+                        .developers__item_link-twit::before {
+                            position: absolute;
+                            content: url("../img/twitter-small.svg");
+                            top: -20px;
+                            left: 93px;
+                        }
+                        .developers__item_link-google {
+                            position: relative;
+                        }
+                        .developers__item_link-google::after {
+                            position: absolute;
+                            content: url("../img/google-plus-small.png");
+                            width: 28px;
+                            height: 28px;
+                            top: 18px;
+                            left: 172px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+    .developers {
+        .developers-box {
+            padding-bottom: 50px;
+
+            
+            .container {
+                .row {
+                    .col-4 {
+                        margin: 0 auto;
+
+                        .developers__header {
+                            font-size: 38px;
+                            padding: 20px 0 0 0;
+                        }
+                    }
+                }
+                .row {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    
+                    .col-3 {
+                        padding: 30px 0 0 0;
+                        min-width: 50%;
+                        text-align: center;
+
+                        .developers__item_image {
+                            padding: 0 0 0 0;
+                        }
+                        .developers__item_name {
+                            padding: 30px 0 0 0;
+                            font-size: 20px;
+                        }
+                        .developers__item_paragraph {
+                            line-height: 1.4;
+                        }
+                        .developers__section {
+                            max-width: 125px;
+                            height: 40px;
+                            
+                            .developers__item_link-fb {
+                                top: 10px;
+                                left: 30px;
+                            }
+                            .developers__item_link-fb::before {
+                                top: 0;
+                                
+                            }
+                            .developers__item_link-twit {
+                                top: -10px;
+                                left: 30px;
+                            }
+                            .developers__item_link-twit::before {
+                                top: -16px;
+                                
+                            }
+                            .developers__item_link-google {
+                                top: 10px;
+                                left: 30px;
+                            }
+                            .developers__item_link-google::after {
+                                top: 0;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .developers {
+        .developers-box {
+            
+            .container {
+                .row {
+                    .col-4 {
+                        max-width: 100%;
+
+                        .developers__header {
+                            font-size: 30px;
+                        }
+                    }
+                }
+                .row {
+                    .col-3 {
+                        
+                        .developers__item_image {
+                            
+                        }
+                        .developers__item_name {
+                            font-size: 16px;
+                            padding: 15px 0 0 0;
+                            
+                        }
+                        .developers__item_paragraph {
+                            font-size: 12px;
+                            
+                        }
+                        .developers__section {
+                            
+                            .developers__item_link-fb {
+                                top: 10px;
+                                left: -25px;
+                            }
+                            .developers__item_link-fb::before {
+                                
+                            }
+                            .developers__item_link-twit {
+                                top: -10px;
+                                left: -25px;
+                            }
+                            .developers__item_link-twit::before {
+                                
+                            }
+                            .developers__item_link-google {
+                                top: 10px;
+                                left: -25px;
+                            }
+                            .developers__item_link-google::after {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .developers {
+        .developers-box {
+            
+            .container {
+                .row {
+                    .col-4 {
+                        .developers__header {
+                            
+                        }
+                    }
+                }
+                .row {
+                    
+                    .col-3 {
+
+                        
+                        .developers__item_image {
+                            
+                        }
+                        .developers__item_name {
+                            
+                        }
+                        .developers__item_paragraph {
+                            
+                        }
+                        .developers__section {
+                            
+                            .developers__item_link-fb {
+                                top: 10px;
+                                left: -70px;
+                            }
+                            .developers__item_link-fb::before {
+                                
+                            }
+                            .developers__item_link-twit {
+                                top: -10px;
+                                left: -70px;
+                            }
+                            .developers__item_link-twit::before {
+                                
+                            }
+                            .developers__item_link-google {
+                                top: 10px;
+                                left: -70px;
+                            }
+                            .developers__item_link-google::after {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .developers {
+        .developers-box {
+            padding: 0 0 20px 0;
+            .container {
+                .row {
+                    .col-4 {
+                        text-align: center;
+                        .developers__header {
+                            
+                        }
+                    }
+                }
+                .row {
+                    display: block;
+                    
+                    .col-3 {
+                        max-width: 100%;
+                        margin: 0 auto;
+                        padding: 15px 0 0 0;
+                        
+                        .developers__item_image {
+                            
+                        }
+                        .developers__item_name {
+                            
+                        }
+                        .developers__item_paragraph {
+                            
+                        }
+                        .developers__section {
+                            max-width: 250px;
+                            margin: 0 auto;
+                            
+                            .developers__item_link-fb {
+                                
+                            }
+                            .developers__item_link-fb::before {
+                                top: 0;
+                                left: 5px;
+                            }
+                            .developers__item_link-twit {
+                                
+
+                            }
+                            .developers__item_link-twit::before {
+                                top: -15px;
+                                left: 20px;
+                            }
+                            .developers__item_link-google {
+                                
+
+                            }
+                            .developers__item_link-google::after {
+                                top: 0;
+                                left: 105px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

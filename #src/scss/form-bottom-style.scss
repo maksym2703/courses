@@ -1,0 +1,328 @@
+.form-bottom {
+    background-color:$milkCoffeeColor;
+    padding-bottom: 65px;
+
+    .container {
+
+        .row {
+    
+            .col-8 {
+        
+                .form__header {
+                    padding: 37px 0 0 7px;
+                    color: #f3f3f3;
+                    font-family: $font-family;
+                    font-weight: 400;
+                    font-size: 60px;
+                    text-transform: uppercase;
+                }
+            }
+
+
+            .col-6 {
+
+                .form__text {
+                    color: #f3f3f3;
+                    font-family: $font-family;
+                    font-weight: 300;
+                    font-size: 25px;
+                    letter-spacing: 0.5px;
+                }
+
+            }
+
+            .col-6 {
+
+
+                .form {
+
+                    .form__input {
+                        margin: 12px 0 30px -9px;
+                        min-width: 540px;
+                        display: block;
+                        padding: 16px 33px 18px 34px;
+                        color: #ababab;
+                        font-family: $font-family-lato;
+                        font-size: 25px;
+                        max-height: 65px;
+                    }
+                    
+                }
+            }
+
+            .col-2 {
+
+                .form__btn {
+                    padding: 20px 41px;
+                    color: #ffffff;
+                    text-transform: capitalize;
+                    background-color: #ba271f;
+                    font-family: $font-family-lato;
+                    font-size: 23px;
+                    font-weight: 400;
+                    
+                }
+
+                .form__btn:hover {
+                    opacity: 0.7;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 1199px) {
+    .form-bottom {
+        padding-bottom: 40px;
+    
+        .container {
+    
+            .row {
+        
+                .col-8 {
+                    margin: 0 auto;
+                    text-align: center;
+                    .form__header {
+                        padding: 30px 0 0 0;
+                        font-size: 48px;
+                    }
+                }
+    
+    
+                .col-6 {
+                    margin: 20px auto 0;
+                    max-width: 100%;
+                    text-align: center;
+    
+                    .form__text {
+                        font-size: 20px;
+                        margin: 0;
+                    }
+    
+                }
+    
+                .col-6 {
+    
+    
+                    .form {
+    
+                        .form__input {
+                            margin: 0 0 30px 0;
+                            max-width: 540px;
+                            padding: 12px 25px 12px 25px;
+                            font-size: 20px;
+                        }
+                        
+                    }
+                }
+    
+                .col-2 {
+    
+                    .form__btn {
+                        padding: 12px 25px;
+                        font-size: 20px;
+                        
+                    }
+    
+                    .form__btn:hover {
+                        
+                    }
+                }
+    
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .form-bottom {
+        
+    
+        .container {
+    
+            .row {
+        
+                .col-8 {
+                    
+                    .form__header {
+                        font-size: 40px;
+                    }
+                }
+    
+    
+                .col-6 {
+                    
+    
+                    .form__text {
+                        font-size: 16px;
+                    }
+    
+                }
+    
+                .col-6 {
+                    
+    
+                    .form {
+    
+                        .form__input {
+                            min-width: 350px;
+                            padding: 10px 15px 10px 15px;
+                            font-size: 16px;
+
+                        }
+                        
+                    }
+                }
+    
+                .col-2 {
+    
+                    .form__btn {
+                        
+                        
+                    }
+    
+                    .form__btn:hover {
+                        
+                    }
+                }
+    
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .form-bottom {
+        padding: 0 0 20px 0;
+    
+        .container {
+    
+            .row {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        
+                .col-8 {
+                    text-align: center;
+                    
+                    .form__header {
+                        font-size: 30px;
+                        padding: 20px 0 0 0;
+                        max-width: 100%;
+
+                    }
+                }
+    
+    
+                .col-6 {
+                    
+    
+                    .form__text {
+                        min-width: 100%;
+                        
+                    }
+    
+                }
+    
+                .col-6 {
+                    
+    
+                    .form {
+ 
+
+                        .form__input {
+                            min-width: 260px;
+                            padding: 6px 12px 6px 12px;
+                            margin: 15px auto;
+
+                        }
+                        
+                    }
+                }
+    
+                .col-2 {
+                    margin: 0 auto;
+                    padding: 0;
+                    
+                    .form__btn {
+                        padding: 6px 8px 6px 8px;
+                        font-size: 16px;
+                        
+                    }
+    
+                    .form__btn:hover {
+                        
+                    }
+                }
+    
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .form-bottom {
+        
+    
+        .container {
+    
+            .row {
+        
+                .col-8 {
+                    max-width: 100%;
+                    
+                    .form__header {
+                        font-size: 30px;
+                        margin: 0;
+
+                    }
+                }
+    
+    
+                .col-6 {
+                    
+    
+                    .form__text {
+                        
+                        
+                    }
+    
+                }
+    
+                .col-6 {
+                    
+    
+                    .form {
+
+                        .form__input {
+                            
+
+                        }
+                        
+                    }
+                }
+    
+                .col-2 {
+                    
+                    
+                    .form__btn {
+                        
+                        
+                        
+                    }
+    
+                    .form__btn:hover {
+                        
+                    }
+                }
+    
+            }
+        }
+    }
+}

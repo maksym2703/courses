@@ -1,0 +1,388 @@
+.advantage {
+        background-color: #fffcf4;
+        max-height: 630px;
+        padding-bottom: 45px;
+        .container-height {
+        }
+        .container {
+            .advantage__head-text {
+                font-family: $font-family;
+                color: $headerColor;
+                font-size: 45px;
+                text-transform: uppercase;
+                padding-top: 35px;
+                text-align: center;
+            }
+            .row {
+                position: relative;
+                margin-top: 96px;
+                height: 100%;
+                .col-4 {
+                    .advantage__item {
+                        text-align: center;
+                        .advantage__item-head {
+                            color: #6e6d6b;
+                            font-family: $font-family;
+                            font-size: 30px;
+                            padding-top: 12px;
+                        }
+                        .advantage__item-text {
+                            font-family: $font-family;
+                            font-size: 15px;
+                            color: #6e6d6b;
+                            line-height: 1.9;
+                        }
+                    }
+                    .globe {
+                        position: relative;
+                        margin-top: 94px;
+                    }
+                    .man {
+                        position: relative;
+                        margin-top: 94px;
+                    }
+                    .phone {
+                        position: relative;
+                    }
+                    .clock {
+                        position: relative;
+                    }
+                    .clock::before {
+                        position: absolute;
+                        content: "";
+                        background-image: url('../img/Clock.png');
+                        width: 64px;
+                        height: 64px;
+                        top: -70px;
+                        left: 145px;
+                    }
+                    .phone::before {
+                        position: absolute;
+                        content: "";
+                        background-image: url('../img/iPhone.png');
+                        width: 40px;
+                        height: 64px;
+                        top: -69px;
+                        left: 131px;
+                    }
+                    .man::before {
+                        position: absolute;
+                        content: "";
+                        background-image: url('../img/Man.png');
+                        width: 64px;
+                        height: 64px;
+                        top: -70px;
+                        left: 145px;
+                    }
+                    .globe::before {
+                        position: absolute;
+                        content: "";
+                        background-image: url('../img/Globe.png');
+                        width: 64px;
+                        height: 64px;
+                        top: -70px;
+                        left: 145px;
+                    }
+                    .advantage__item-min {
+                        max-width: 293px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+            .row::after {
+                position: absolute;
+                content: "";
+                background: url('../img/Lyre.png') no-repeat;
+                width: 86px;
+                height: 94px;
+                top: 91px;
+                left: 530px;
+            }
+        }
+    }
+
+
+@media screen and (max-width: 1199px) {
+    .advantage {
+
+            
+        .container-height {
+            }
+        .container {
+            .advantage__head-text {
+                font-size: 36px;   
+                    
+            }
+            .row {
+                background: url('../img/Lyre.png') 50% 40% no-repeat;
+                background-size: contain;
+                    
+                .col-4 {
+
+                    .advantage__item {
+                        
+                            }
+                        .advantage__item-text {
+                            }
+                        
+
+                    .globe {}
+
+                    .man {}
+
+                    .phone {}
+
+                    .clock {}
+
+                    .clock::before {
+                        
+                        left: 115px;
+                    }
+                    .phone::before {
+                        
+                        left: 125px;
+                    }
+                    .man::before {
+                       
+                        left: 115px;
+                    }
+                    .globe::before {
+                        
+                        left: 115px;
+                    }
+                    .advantage__item-min {
+                            
+                        }
+            }
+        }
+            .row::after {
+                display: none;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .advantage {
+            
+        .container-height {
+        }
+
+        .container {
+
+            .advantage__head-text {
+                justify-content: center;
+                align-items: center;
+                font-size: 36px;
+            }
+            .row {
+                align-items: center;
+                background: url('../img/Lyre.png') 50% 40% no-repeat;
+                background-size: contain;
+                margin-left: 0;
+                    
+                .col-4 {
+                    
+
+                    .advantage__item {
+                        max-width: 280px;
+                        
+                    
+                        .advantage__item-head {
+                            font-size: 24px;
+                    }
+
+                        .advantage__item-text {
+                            line-height: 1.2;
+                            padding: 0;
+                    }
+                }     
+
+                    .globe {
+                        
+                    }
+
+                    .man {}
+
+                    .phone {}
+
+                    .clock {}
+
+                    .clock::before {
+                        
+                        left: 75px;
+                    }
+                    .phone::before {
+                        
+                        left: 85px;
+
+                    }
+                    .man::before {
+                       
+                        left: 75px;
+                        
+                    }
+                    .globe::before {
+                        
+                        left: 75px;
+
+                    }
+                    .advantage__item-min {
+                            
+                    }
+                }
+            }
+
+            .row::after {}
+        }
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .advantage {
+        max-height: 100%;
+        padding: 0 0 20px 0;
+            
+        .container-height {
+        }
+
+        .container {
+
+            .advantage__head-text {
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+            }
+            .row {
+                display: block;
+                background: url('../img/Lyre.png') bottom center no-repeat;
+                margin: 0 0 0 0;
+                    
+                .col-4 {
+                    max-width: 300px;
+                    margin: 0 auto;
+                    padding: 0 0 0 0;
+                    
+
+                    .advantage__item {
+                        margin: 0 auto;
+                        
+                    
+                        .advantage__item-head {
+                            font-size: 22px;
+                    }
+
+                        .advantage__item-text {
+                    }
+                }     
+
+                    .globe {
+                        
+                    }
+
+                    .man {
+                        padding-bottom: 100px;
+                    }
+
+                    .phone {}
+
+                    .clock {}
+
+                    .clock::before {
+                        top: 40px;
+                        left: -70px;
+                    }
+                    .phone::before {
+                        top: 40px;
+                        left: -60px;
+
+                    }
+                    .man::before {
+                        top: 40px;
+                        left: -70px;
+                        
+                    }
+                    .globe::before {
+                        top: 40px;
+                        left: -70px;
+
+                    }
+                    .advantage__item-min {
+                            
+                    }
+                }
+            }
+
+            .row::after {}
+        }
+    }
+}
+
+
+@media screen and (max-width: 567px) {
+    .advantage {
+        
+            
+        .container-height {
+        }
+
+        .container {
+
+            .advantage__head-text {
+                
+            }
+            .row {
+                
+                    
+                .col-4 {
+                    
+                    
+
+                    .advantage__item {
+                        
+                        
+                    
+                        .advantage__item-head {
+                            
+                    }
+
+                        .advantage__item-text {
+                    }
+                }     
+
+                    .globe {
+                        
+                    }
+
+                    .man {
+                        
+                    }
+
+                    .phone {}
+
+                    .clock {}
+
+                    .clock::before {
+                        display: none;
+                    }
+                    .phone::before {
+                        display: none;
+                    }
+                    .man::before {
+                        display: none;                        
+                    }
+                    .globe::before {
+                        display: none;
+                    }
+                    .advantage__item-min {
+                            
+                    }
+                }
+            }
+
+            .row::after {}
+        }
+    }
+}

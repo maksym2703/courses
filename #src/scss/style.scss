@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,regular");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,regular,600,700");
+
+
+@import "fonts";
+
+
+//fonts
+$font-family: "Open Sans", sans-serif;
+$font-family-lato: "Lato", sans-serif;
+
+//values
+$maxWidth: 1600px;
+$maxWidthContainer: 1170px;
+$greyColor: #f0f0f0;
+$lightBrownColor: #a99473;
+$milkCoffeeColor: #b4a184;
+$likeRedColor: #ba271f;
+$headerColor: #3e3e3e;
+$colorWhite: #ffffff;
+
+// styles
+@import "normalize";
+@import "header-style";
+@import "advantage-style";
+@import "course-style";
+@import "slider-style";
+@import "education-style";
+@import "developers-style";
+@import "form-bottom-style";
+@import "footer-style";
+
+
+body {
+    display: flex;
+	flex-direction: column;
+    height: 100%;
+
+    .main {
+        
+    }
+}
